@@ -1,12 +1,21 @@
-import { BrowserRouter } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
+
 import Navbar from "./components/layouts/Navbar";
+import HomePage from "./pages/HomePage";
+import NewsPage from "./pages/NewsPage";
 
 function App() {
   return (
-    <BrowserRouter>
+    <>
       <Navbar />
-      <main className="min-h-screen bg-white"></main>
-    </BrowserRouter>
+
+      <main>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/aktualnosci" element={<NewsPage />} />
+        </Routes>
+      </main>
+    </>
   );
 }
 
