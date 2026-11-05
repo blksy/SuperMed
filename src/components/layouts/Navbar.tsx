@@ -35,7 +35,7 @@ const navigation: NavigationItem[] = [
     label: "Dla pacjenta",
     children: [
       { label: "Zasady rejestracji", path: "/rejestracja" },
-      { label: "Deklaracje i formularze", path: "/dokumenty" },
+      { label: "Deklaracje i formularze", path: "/dla-pacjenta/deklaracje" },
       { label: "Gdzie wykonać badania?", path: "/punkty-badan" },
       { label: "Wizyty domowe", path: "/wizyty-domowe" },
     ],
