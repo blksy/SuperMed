@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
 import { ChevronDown, ExternalLink, Menu, Search, X } from "lucide-react";
 
-import logo from "../../assets/images/logo.png";
+import logo from "../../assets/images/Logo.png";
 
 type DropdownItem = {
   label: string;
