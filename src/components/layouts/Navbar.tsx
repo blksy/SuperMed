@@ -25,19 +25,19 @@ const navigation: NavigationItem[] = [
   {
     label: "Badania",
     children: [
-      { label: "Badania laboratoryjne", path: "/badania-laboratoryjne" },
-      { label: "USG", path: "/usg" },
+      { label: "Badania laboratoryjne", path: "/badania/laboratoryjne" },
+      { label: "USG", path: "/badania/usg" },
       { label: "Szczepienia", path: "/szczepienia" },
-      { label: "Profilaktyka HPV", path: "/hpv" },
+      { label: "Profilaktyka HPV", path: "/szczepienia/hpv" },
     ],
   },
   {
     label: "Dla pacjenta",
     children: [
-      { label: "Zasady rejestracji", path: "/rejestracja" },
+      { label: "Zasady rejestracji", path: "/dla-pacjenta/zasady-rejestracji" },
       { label: "Deklaracje i formularze", path: "/dla-pacjenta/deklaracje" },
-      { label: "Gdzie wykonać badania?", path: "/punkty-badan" },
-      { label: "Wizyty domowe", path: "/wizyty-domowe" },
+      { label: "Gdzie wykonać badania?", path: "/badania/laboratoryjne" },
+      { label: "Wizyty domowe", path: "/dla-pacjenta/wizyty-domowe" },
     ],
   },
   { label: "Aktualności", path: "/aktualnosci" },
