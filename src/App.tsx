@@ -18,6 +18,8 @@ import HPVVaccinationPage from "./pages/HPVVaccinationPage";
 import VaccinationsPage from "./pages/VaccinationsPage";
 import UltrasoundPage from "./pages/UltrasoundPage";
 import LaboratoryTestsPage from "./pages/LaboratoryTestsPage";
+import AboutPage from "./pages/AboutPage";
+import ContactPage from "./pages/ContactPage";
 
 function App() {
   return (
@@ -60,6 +62,8 @@ function App() {
           <Route path="/projekt-grantowy" element={<GrantProjectPage />} />
           <Route path="/regulamin" element={<TermsPage />} />
           <Route path="/polityka-prywatnosci" element={<PrivacyPolicyPage />} />
+          <Route path="/o-nas" element={<AboutPage />} />
+          <Route path="/kontakt" element={<ContactPage />} />
         </Routes>
       </main>
 
